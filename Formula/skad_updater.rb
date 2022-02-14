@@ -5,8 +5,6 @@ class SkadUpdater < Formula
   sha256 "3aff7f5b01d9fe62787187c4edf51d0ad6c41e6f88b624a5ce106f256aded7f1"
   license "MIT"
 
-  bottle :unneeded
-
   def install
     bin.install "bin/skad_updater"
     man1.install "docs/skad_updater.1"
